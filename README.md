@@ -5,7 +5,7 @@ Data Source: https://www.kaggle.com/datasets/iamsouravbanerjee/house-rent-predic
 
 ### Possible future endeavour
 
-#### Consider other alternatives for feature selections. In this case I have simply retained features with correlation value > 0.2
+#### Consider other alternatives for feature selections. In this case I have simply retained features with correlation value > 0.2 with regards to the target feature/attribute/column = Rent
 ```
 cor = col_all_int.corr()
 cor_target = abs(cor["Rent"])
